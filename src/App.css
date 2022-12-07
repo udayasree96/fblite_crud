@@ -1,0 +1,207 @@
+*{
+  margin: 0px;
+  padding: 0px;
+ 
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+input {
+  padding: 4px;
+  margin-right: 8px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: red;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.left
+{
+    float:left;
+    background-image: url('./bg.svg');
+    background-color: rgb(48, 44, 44);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+    color:antiquewhite;
+    height:100vh;
+    width:35%;
+    align-items: center;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    display:flex;
+    justify-content: center;
+
+}
+.left h1
+{
+    font-size: 1.3rem;
+    margin-left:5px;
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Right
+{
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    margin-top:0px;
+    height: 100vh;
+    padding-left: 0%;
+    position: relative;
+    width:100%;
+}
+.main-screen
+{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    
+
+}
+.right .copy
+{
+    color:black;
+    font-weight: 500;
+}
+form input[type="text"],input[type="phone"],input[type="password"] ,input[type="email"]
+{
+    width: 100%;
+    opacity: 0.7;
+    border-radius: 5px;
+    height:2.7rem;
+    font-size:medium;
+}
+form
+{
+    font-size: 0.79rem;
+    margin-left:25%;
+    margin-top:5%;
+    padding:0px;
+    position: relative;
+    box-sizing: border-box;
+    width: 50%;
+}
+form div
+{
+    margin-top: 1rem;
+}
+form div input
+{
+    margin-top:0.7rem;
+}
+form div button
+{
+    width:100%;
+    position: relative;
+    height:2.7rem;
+    background-color: rgb(185, 0, 111);
+    opacity: 0.5;
+    font-weight: 900;
+    color: white;
+    font-size:larger;
+    border-radius: 12px;
+    margin-left: 0%;
+}
+footer
+{
+    font-size: small;
+    margin-bottom: 0px;
+}
+.input-container-password
+{
+    position:relative;
+}
+.input-container-password img
+{
+    position:absolute;
+    top:42px;
+    right:16px;
+}
+#footer
+{
+    position:fixed;
+    padding-left:45%;
+    margin-right: 10px;
+    bottom:0;
+    width:100%;
+    height:40px;
+
+}
+#footer a
+{
+    color:black;
+}
+h2
+{
+    font-size:large;
+    font-weight:717;
+}
+.err{
+  color:red;
+}
+.error
+{
+  color:red;
+}
+.label1
+{
+  color:black;
+}
+button[disabled]{
+    cursor:not-allowed;
+}
+.login{
+  align-items: center;
+  padding-left: 50%;
+  
+}
+.main{
+  text-align: center;
+}
+.submit_button{
+ 
+  width:100%;
+position: relative;
+height:2.7rem;
+background-color:grey;
+opacity: 0.5;
+font-weight: 900;
+color: white;
+font-size:larger;
+border-radius: 12px;
+margin-left: 0%;
+padding-left:45%;
+margin-right: 10px;
+}

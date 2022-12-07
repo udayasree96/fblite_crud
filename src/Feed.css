@@ -1,0 +1,117 @@
+.app {
+  text-align: center;
+
+}
+
+input {
+  padding: 4px;
+  margin-right: 8px;
+}
+h1{
+  font-size: 70px;
+  font-weight: 600;
+  background-image: conic-gradient(#553c9a,#ee4b2b,#00c2cb);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+ul {
+  /* Remove bullet point  */
+  list-style: none;
+}
+
+li {
+  margin: 12px 0;
+}
+
+.delete-button {
+  font-size: 10px;
+  margin-left: 8px;
+
+  border: none;
+  color: white;
+  border-radius: 4px;
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+
+  background-color: black;
+}
+
+.up-button {
+  font-size: 10px;
+  margin-left: 8px;
+
+  border: none;
+  color:white;
+  border-radius: 4px;
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: blueviolet;
+}
+div .button_sub{
+  background-color: blueviolet;
+  font-size: 10px;
+  margin-left: 8px;
+
+  border: none;
+  color:white;
+  border-radius: 4px;
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.like-button{
+  font-size: 10px;
+  margin-left: 8px;
+
+  border: none;
+  color:white;
+  border-radius: 4px;
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: blueviolet;
+}
+.feed-screen{
+  background-color: beige;
+  border-radius: 4px;
+   
+  margin:20px 30px; 
+  height: auto;
+  width: auto;
+}
+textarea{
+  background-color: #f8f8f8;
+ 
+  box-sizing: border-box;
+  padding: 12px 20 px;
+  border: 2px solid #ccc;
+  border-radius: px;
+  width: auto;
+  height: auto;
+}
+a:hover{
+  cursor: pointer;
+  background-color: #555;
+
+}
+a{
+  background-color: chocolate;
+  color: white;
+
+  text-decoration: none;
+  text-transform:uppercase
+}
